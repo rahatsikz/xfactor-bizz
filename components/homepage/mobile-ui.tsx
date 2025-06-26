@@ -20,10 +20,10 @@ export default function Mobile() {
             {/* Screen Content Area */}
             <div className='relative w-full h-full rounded-[2.5rem] overflow-hidden bg-black'>
               {/* Top Dark Area (for notch) */}
-              <div className='absolute top-0 left-0 right-0 h-16 bg-black z-30'></div>
+              <div className='absolute top-0 left-0 right-0 h-16 bg-background z-30'></div>
 
               {/* Instagram Header */}
-              <div className='absolute top-7 left-0 right-0 z-40 bg-black/80 backdrop-blur-sm px-5 lg:py-4 py-2'>
+              <div className='absolute top-7 left-0 right-0 z-40 bg-background backdrop-blur-sm px-5 lg:py-4 py-2'>
                 <div className='flex items-center space-x-2'>
                   {/* Instagram Logo */}
                   <div className='w-4 h-4 bg-gradient-to-tr from-purple-500 via-pink-500 to-orange-400 rounded-lg flex items-center justify-center'>

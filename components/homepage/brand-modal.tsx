@@ -95,7 +95,10 @@ export default function BrandModal() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button className='bg-primary text-white font-semibold !px-8 py-3  shadow-lg hover:shadow-xl transition-all duration-300'>
+        <Button
+          variant={"outline"}
+          className='bg-primary text-white font-semibold !px-8 py-3  shadow-lg hover:shadow-xl transition-all duration-300'
+        >
           <Rocket className='h-5 w-5' />
           Partner With Us
         </Button>
