@@ -12,7 +12,7 @@ export default function HeroSection() {
 
   return (
     <div
-      className='max-w-7xl mx-auto max-md:pb-20 px-5 lg:px-8 pt-8 lg:pt-20 2xl:pt-40'
+      className='max-w-7xl mx-auto max-md:pb-20 px-5 lg:px-8 pt-8 lg:pt-20 2xl:pt-36'
       suppressHydrationWarning={true}
     >
       <div className='grid grid-cols-12 gap-y-16 md:gap-y-20 lg:gap-12'>
