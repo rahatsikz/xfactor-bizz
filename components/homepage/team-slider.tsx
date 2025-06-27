@@ -200,7 +200,7 @@ export default function TeamSlider() {
                       </div>
 
                       {/* Image & Overlay */}
-                      <div className='relative h-48 w-full border-x-2 border-border overflow-hidden'>
+                      <div className='relative h-56 w-full border-x-2 border-border overflow-hidden'>
                         <Image
                           src={member.image!}
                           alt={member.name}

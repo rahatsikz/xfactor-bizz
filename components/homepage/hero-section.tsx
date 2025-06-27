@@ -1,17 +1,20 @@
 "use client";
-import { useMount } from "@/hooks/use-mount";
+// import { useMount } from "@/hooks/use-mount";
 import BrandModal from "./brand-modal";
 import InfluencerModal from "./influencer-modal";
 import Mobile from "./mobile-ui";
 import { motion } from "framer-motion";
 
 export default function HeroSection() {
-  const isMounted = useMount();
+  // const isMounted = useMount();
 
-  if (!isMounted) return null;
+  // if (!isMounted) return null;
 
   return (
-    <div className='max-w-7xl mx-auto px-5 lg:px-8 pt-8 lg:pt-20 2xl:pt-40'>
+    <div
+      className='max-w-7xl mx-auto max-md:pb-20 px-5 lg:px-8 pt-8 lg:pt-20 2xl:pt-40'
+      suppressHydrationWarning={true}
+    >
       <div className='grid grid-cols-12 gap-y-16 md:gap-y-20 lg:gap-12'>
         {/* Text div */}
         <motion.div
