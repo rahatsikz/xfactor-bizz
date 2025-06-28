@@ -58,6 +58,7 @@ export default function HeroSection() {
             loop
             muted
             className='rounded-lg w-full h-auto'
+            suppressHydrationWarning={true}
           />
           <div className='h-16' />
           <div className='absolute rounded-xl top-[42%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full'>

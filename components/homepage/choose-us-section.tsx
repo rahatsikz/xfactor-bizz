@@ -131,7 +131,7 @@ export default function WhyChooseUs() {
 
           {/* Section 2 - Excellence */}
           <div className='scroll-section w-screen h-screen flex items-center justify-center flex-shrink-0'>
-            <section className=' px-10 py-16 lg:py-24'>
+            <section className=' px-10 py-16 lg:pt-28'>
               <div className='w-full mx-auto'>
                 <div className='grid lg:grid-cols-2 gap-12 lg:gap-16 items-center'>
                   {/* Left Content */}
