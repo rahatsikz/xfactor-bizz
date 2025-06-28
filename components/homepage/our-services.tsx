@@ -96,7 +96,7 @@ export default function OurServices() {
             return (
               <div
                 key={service.id}
-                className='lg:inline-block w-full lg:break-inside-avoid h-full'
+                className='lg:inline-block w-full lg:break-inside-avoid max-lg:h-full'
               >
                 <Card className='group relative overflow-hidden border-0 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm hover:from-white/20 hover:to-white/10 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl pt-1 max-lg:h-full'>
                   <CardContent className='p-4'>
