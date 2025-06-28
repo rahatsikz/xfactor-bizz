@@ -13,6 +13,7 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import { useMediaQuery } from "@/hooks/use-media-query";
+import Link from "next/link";
 
 const navItems = [
   { name: "HOME", href: "#" },
@@ -46,10 +47,12 @@ export default function Navbar() {
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
           className='flex items-center'
         >
-          <div className='text-2xl font-bold tracking-wider'>
-            <span className='text-primary'>X</span>
-            <span className='text-foreground pl-0.5 '>Factor</span>
-          </div>
+          <Link href='/'>
+            <div className='text-2xl font-bold tracking-wider'>
+              <span className='text-primary'>X</span>
+              <span className='text-foreground pl-0.5 '>Factor</span>
+            </div>
+          </Link>
         </motion.div>
 
         {/* Desktop Navigation */}
