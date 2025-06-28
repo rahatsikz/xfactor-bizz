@@ -90,15 +90,15 @@ export default function OurServices() {
         </div>
 
         {/* Compact Grid */}
-        <div className='columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5'>
+        <div className='lg:columns-3 max-lg:gap-5 space-y-5 max-lg:grid  md:max-lg:grid-cols-2 '>
           {services.map((service) => {
             const Icon = service.icon;
             return (
               <div
                 key={service.id}
-                className='inline-block w-full break-inside-avoid'
+                className='lg:inline-block w-full lg:break-inside-avoid h-full'
               >
-                <Card className='group relative overflow-hidden border-0 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm hover:from-white/20 hover:to-white/10 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl pt-1'>
+                <Card className='group relative overflow-hidden border-0 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm hover:from-white/20 hover:to-white/10 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl pt-1 max-lg:h-full'>
                   <CardContent className='p-4'>
                     {/* Service Badge */}
                     <div className='flex items-center justify-between mb-3'>
